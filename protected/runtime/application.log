@@ -1,0 +1,1657 @@
+2014/07/16 15:16:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php:399
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(393): CDbConnection->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://www.basesite.com/index.php/gii/form/index
+---
+2014/07/16 15:19:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'vz_mysql_basesite'' in F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php:399
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(393): CDbConnection->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://www.basesite.com/index.php/gii/form/index
+---
+2014/07/16 15:19:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'vz_mysql_basesite'' in F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php:399
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(393): CDbConnection->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+---
+2014/07/16 15:19:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'vz_mysql_basesite'' in F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php:399
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(393): CDbConnection->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://www.basesite.com/index.php/gii
+---
+2014/07/16 15:21:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'vz_mysql_basesite'' in F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php:399
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(393): CDbConnection->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+---
+2014/07/17 11:21:45 [error] [php] SoapClient::SoapClient(): php_network_getaddresses: getaddrinfo failed: No such host is known.  (F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php:51)
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): SiteController->runAction()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): SiteController->run()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/Webservice
+in F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php (51)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
+2014/07/17 11:23:17 [error] [php] SoapClient::SoapClient(): php_network_getaddresses: getaddrinfo failed: No such host is known.  (F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php:51)
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): SiteController->runAction()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): SiteController->run()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/Webservice
+in F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php (51)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
+2014/07/17 11:23:21 [error] [php] SoapClient::SoapClient(): php_network_getaddresses: getaddrinfo failed: No such host is known.  (F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php:51)
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): SiteController->runAction()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): SiteController->run()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/Webservice
+in F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php (51)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
+2014/07/17 11:30:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "post".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php:483
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(270): CController->missingAction('post')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('post')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('post/post')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/post
+---
+2014/07/17 11:30:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getpost".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php:483
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(270): CController->missingAction('getpost')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('getpost')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('post/getpost')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/getpost
+---
+2014/07/17 11:30:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "queto".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php:483
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(270): CController->missingAction('queto')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('queto')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('post/queto')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/queto
+---
+2014/07/17 11:30:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pueto".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php:483
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(270): CController->missingAction('pueto')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('pueto')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('post/pueto')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/pueto
+---
+2014/07/17 11:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "uote".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php:483
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(270): CController->missingAction('uote')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('uote')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('post/uote')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/uote
+---
+2014/07/17 11:30:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "quote".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php:483
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(270): CController->missingAction('quote')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('quote')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('post/quote')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/quote
+---
+2014/07/17 11:30:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "quote".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php:483
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(270): CController->missingAction('quote')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('quote')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('post/quote')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/quote
+---
+2014/07/17 11:31:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getPosts".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php:483
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(270): CController->missingAction('getPosts')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('getPosts')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('post/getPosts')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/getPosts
+---
+2014/07/17 11:32:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "puote/quote".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('puote/quote')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/puote/quote
+---
+2014/07/17 11:32:17 [error] [php] SoapClient::SoapClient(http://www.basesite.com/index.php/puote/quote): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ (F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): SiteController->runAction()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): SiteController->run()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/Webservice
+in F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php (52)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
+2014/07/17 11:32:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "quote".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php:483
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(270): CController->missingAction('quote')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('quote')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('post/quote')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/quote
+---
+2014/07/17 11:32:33 [error] [php] SoapClient::SoapClient(http://www.basesite.com/index.php/post/quote): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ (F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): SiteController->runAction()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): SiteController->run()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/Webservice
+in F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php (52)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
+2014/07/17 11:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "quote".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php:483
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(270): CController->missingAction('quote')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('quote')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('post/quote')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/quote
+---
+2014/07/17 11:32:56 [error] [php] SoapClient::SoapClient(http://www.basesite.com/index.php/post/quote): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ (F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): SiteController->runAction()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): SiteController->run()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/Webservice
+in F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php (52)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
+2014/07/17 11:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "quote".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php:483
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(270): CController->missingAction('quote')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('quote')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('post/quote')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/post/quote
+---
+2014/07/17 11:32:56 [error] [php] SoapClient::SoapClient(http://www.basesite.com/index.php/post/quote): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ (F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): SiteController->runAction()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): SiteController->run()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/Webservice
+in F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php (52)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
+2014/07/17 15:04:59 [error] [exception.CException] exception 'CException' with message 'Property "SiteController._seoTitle" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\themes\default\views\_include\header.php(5): CComponent->__get('_seoTitle')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', NULL, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', NULL, true)
+#4 F:\Vanser\project\WebBase\Base_site\themes\default\views\site\index.php(1): CController->renderPartial('/_include/heade...')
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', NULL, true)
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', NULL, true)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#9 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(33): CController->render('index')
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('')
+#15 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/
+---
+2014/07/17 15:12:24 [error] [exception.CException] exception 'CException' with message 'Property "SiteController._theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(34): CComponent->__get('_theme')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('')
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/
+---
+2014/07/17 15:12:27 [error] [exception.CException] exception 'CException' with message 'Property "SiteController._theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(34): CComponent->__get('_theme')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('')
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/
+---
+2014/07/17 15:12:58 [error] [exception.CException] exception 'CException' with message 'Property "SiteController._theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\views\site\index.php(8): CComponent->__get('_theme')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', NULL, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', NULL, true)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(35): CController->render('index')
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/
+---
+2014/07/17 15:13:00 [error] [exception.CException] exception 'CException' with message 'Property "SiteController._theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\views\site\index.php(8): CComponent->__get('_theme')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', NULL, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', NULL, true)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(35): CController->render('index')
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/
+---
+2014/07/17 15:13:12 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\views\site\index.php(8): CComponent->__get('theme')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', NULL, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', NULL, true)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(35): CController->render('index')
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/
+---
+2014/07/17 15:13:14 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\views\site\index.php(8): CComponent->__get('theme')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', NULL, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', NULL, true)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(35): CController->render('index')
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/
+---
+2014/07/17 15:20:36 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\views\site\index.php(8): CComponent->__get('theme')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', NULL, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', NULL, true)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(35): CController->render('index')
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/
+---
+2014/07/17 15:20:36 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\views\site\index.php(8): CComponent->__get('theme')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', NULL, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', NULL, true)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(35): CController->render('index')
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/
+---
+2014/07/17 15:26:14 [error] [php] Object of class CTheme could not be converted to string (F:\Vanser\project\WebBase\Base_site\protected\views\site\index.php:8)
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(35): SiteController->render()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/
+in F:\Vanser\project\WebBase\Base_site\protected\views\site\index.php (8)
+in F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php (35)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
+2014/07/17 15:43:31 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.breadcrumbs" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\views\site\contact.php(7): CComponent->__set('breadcrumbs', Array)
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', Array, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', Array, true)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('contact', Array, true)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(82): CController->render('contact', Array)
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('contact')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/contact
+HTTP_REFERER=http://www.basesite.com/index.php/
+---
+2014/07/17 15:43:39 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.breadcrumbs" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\views\site\contact.php(7): CComponent->__set('breadcrumbs', Array)
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', Array, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', Array, true)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('contact', Array, true)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(82): CController->render('contact', Array)
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('contact')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/contact
+HTTP_REFERER=http://www.basesite.com/index.php/
+---
+2014/07/17 15:43:43 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.breadcrumbs" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\views\site\login.php(7): CComponent->__set('breadcrumbs', Array)
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', Array, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', Array, true)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(108): CController->render('login', Array)
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('login')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://www.basesite.com/index.php/
+---
+2014/07/17 15:47:03 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.breadcrumbs" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\views\site\pages\about.php(5): CComponent->__set('breadcrumbs', Array)
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', NULL, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', NULL, true)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('pages/about', NULL, true)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CViewAction.php(140): CController->render('pages/about')
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CAction.php(76): CViewAction->run()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('page')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/page?view=about
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:47:18 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.breadcrumbs" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\views\site\contact.php(7): CComponent->__set('breadcrumbs', Array)
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', Array, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', Array, true)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('contact', Array, true)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(82): CController->render('contact', Array)
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('contact')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/contact
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:47:58 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.breadcrumbs" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\views\site\contact.php(7): CComponent->__set('breadcrumbs', Array)
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(126): require('F:\Vanser\proje...')
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\Vanser\proje...', Array, true)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(869): CBaseController->renderFile('F:\Vanser\proje...', Array, true)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(782): CController->renderPartial('contact', Array, true)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\SiteController.php(82): CController->render('contact', Array)
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('contact')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/contact
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:04 [error] [php] Use of undefined constant WWWPATH - assumed 'WWWPATH' (F:\Vanser\project\WebBase\Base_site\protected\components\XFrontBase.php:30)
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/contact
+in F:\Vanser\project\WebBase\Base_site\protected\components\XFrontBase.php (30)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
+2014/07/17 15:49:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+HTTP_REFERER=http://www.basesite.com/index.php/site
+---
+2014/07/17 15:49:09 [error] [php] Use of undefined constant WWWPATH - assumed 'WWWPATH' (F:\Vanser\project\WebBase\Base_site\protected\components\XFrontBase.php:30)
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#1 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in F:\Vanser\project\WebBase\Base_site\protected\components\XFrontBase.php (30)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:49:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 15:51:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "install".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('install')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/install
+---
+2014/07/17 16:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/login".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2014/07/17 16:03:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/login".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2014/07/17 16:14:28 [error] [exception.CException] exception 'CException' with message 'Property "VanController._Theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\controllers\VanController.php(9): CComponent->__get('_Theme')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): VanController->actionIndex()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('')
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:24:42 [error] [exception.CException] exception 'CException' with message 'Property "VanController._theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\components\Controller.php(25): CComponent->__set('_theme', Object(CTheme))
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\VZ_Base.php(19): Controller->init()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:24:43 [error] [exception.CException] exception 'CException' with message 'Property "VanController._theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\components\Controller.php(25): CComponent->__set('_theme', Object(CTheme))
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\VZ_Base.php(19): Controller->init()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:26:31 [error] [exception.CException] exception 'CException' with message 'Property "VanController._theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\components\Controller.php(26): CComponent->__set('_theme', Object(CTheme))
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\VZ_Base.php(19): Controller->init()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:26:33 [error] [exception.CException] exception 'CException' with message 'Property "VanController._theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\components\Controller.php(26): CComponent->__set('_theme', Object(CTheme))
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\VZ_Base.php(19): Controller->init()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:26:34 [error] [exception.CException] exception 'CException' with message 'Property "VanController._theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\components\Controller.php(26): CComponent->__set('_theme', Object(CTheme))
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\VZ_Base.php(19): Controller->init()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:26:43 [error] [exception.CException] exception 'CException' with message 'Property "VanController._theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\components\Controller.php(26): CComponent->__set('_theme', Object(CTheme))
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\VZ_Base.php(19): Controller->init()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:26:44 [error] [exception.CException] exception 'CException' with message 'Property "VanController._theme" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\components\Controller.php(26): CComponent->__set('_theme', Object(CTheme))
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\VZ_Base.php(19): Controller->init()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:27:20 [error] [exception.CException] exception 'CException' with message 'Property "VanController._themePath" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\components\Controller.php(27): CComponent->__set('_themePath', 'F:/Vanser/proje...')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\VZ_Base.php(19): Controller->init()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:31:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://www.basesite.com/
+---
+2014/07/17 16:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/logout".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/logout')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/site/logout
+HTTP_REFERER=http://www.basesite.com/index.php
+---
+2014/07/17 16:35:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/logout".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/logout')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/site/logout
+HTTP_REFERER=http://www.basesite.com/index.php/
+---
+2014/07/17 16:36:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/logout".' in F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/logout')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/site/logout
+HTTP_REFERER=http://www.basesite.com/index.php/
+---
+2014/07/17 16:40:05 [error] [exception.CException] exception 'CException' with message 'Property "VanController.is_Login" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\controllers\VanController.php(14): CComponent->__get('is_Login')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): VanController->actionLogin()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('login')
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('Van/login')
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/Van/login
+---
+2014/07/17 16:57:48 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:58:01 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:58:21 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:58:23 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:58:24 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:58:24 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:58:25 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 16:58:27 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 17:00:35 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 17:01:09 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 17:01:10 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 17:01:11 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 17:01:17 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 17:01:17 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 17:12:36 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 17:26:56 [error] [php] session_regenerate_id(): Session object destruction failed (F:\Vanser\project\WebBase\Van_Framework\framework\web\CHttpSession.php:181)
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(233): CWebUser->changeIdentity()
+#1 F:\Vanser\project\WebBase\Base_site\protected\models\User\LoginForm.php(70): CWebUser->login()
+#2 F:\Vanser\project\WebBase\Base_site\protected\controllers\VanController.php(29): LoginForm->login()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): VanController->actionLogin()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): VanController->runAction()
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): VanController->runActionWithFilters()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): VanController->run()
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/Van/login
+in F:\Vanser\project\WebBase\Base_site\protected\models\User\LoginForm.php (70)
+in F:\Vanser\project\WebBase\Base_site\protected\controllers\VanController.php (29)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
+2014/07/17 17:26:56 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+HTTP_REFERER=http://www.basesite.com/index.php/Van/login
+---
+2014/07/17 17:27:16 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser._Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('_Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('_Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+HTTP_REFERER=http://www.basesite.com/index.php/Van/login
+---
+2014/07/17 17:27:18 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser._Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('_Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('_Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 17:28:25 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser._Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('_Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('_Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 17:28:28 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser._Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('_Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('_Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/
+---
+2014/07/17 17:28:43 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/
+---
+2014/07/17 17:28:45 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/
+---
+2014/07/17 17:28:47 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/
+---
+2014/07/17 17:30:03 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.VL_errorMessage" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\models\User\LoginForm.php(52): CComponent->__get('VL_errorMessage')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#4 F:\Vanser\project\WebBase\Base_site\protected\controllers\VanController.php(29): CModel->validate()
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): VanController->actionLogin()
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('login')
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('Van/login')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php/Van/login
+HTTP_REFERER=http://www.basesite.com/index.php/Van/login
+---
+2014/07/17 17:30:36 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.VL_errorMessage" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\models\User\LoginForm.php(52): CComponent->__get('VL_errorMessage')
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#4 F:\Vanser\project\WebBase\Base_site\protected\controllers\VanController.php(29): CModel->validate()
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): VanController->actionLogin()
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('login')
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('Van/login')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php/Van/login
+HTTP_REFERER=http://www.basesite.com/index.php/Van/login
+---
+2014/07/17 17:31:08 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\components\User\UserIdentity.php(40): CComponent->__set('_id', '2')
+#1 F:\Vanser\project\WebBase\Base_site\protected\models\User\LoginForm.php(51): UserIdentity->authenticate()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\VanController.php(29): CModel->validate()
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): VanController->actionLogin()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('login')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('Van/login')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/Van/login
+HTTP_REFERER=http://www.basesite.com/index.php/Van/login
+---
+2014/07/17 17:31:52 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.slkdhsalkh" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('slkdhsalkh')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('slkdhsalkh')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 17:31:52 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.slkdhsalkh" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('slkdhsalkh')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('slkdhsalkh')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/17 17:32:33 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\components\User\UserIdentity.php(40): CComponent->__set('_id', '2')
+#1 F:\Vanser\project\WebBase\Base_site\protected\models\User\LoginForm.php(51): UserIdentity->authenticate()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 F:\Vanser\project\WebBase\Base_site\protected\controllers\VanController.php(29): CModel->validate()
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): VanController->actionLogin()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('login')
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('Van/login')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/Van/login
+HTTP_REFERER=http://www.basesite.com/index.php/Van/login
+---
+2014/07/18 10:33:02 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+HTTP_REFERER=http://www.basesite.com/index.php/Van/login
+---
+2014/07/18 10:34:02 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+HTTP_REFERER=http://www.basesite.com/index.php/Van/login
+---
+2014/07/18 10:34:04 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Usertype" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Usertype')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(30): CWebUser->__get('Usertype')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php
+---
+2014/07/18 10:47:14 [error] [exception.CException] exception 'CException' with message 'UserIdentity and its behaviors do not have a method or closure named "setUsertype".' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:266
+Stack trace:
+#0 F:\Vanser\project\WebBase\Base_site\protected\components\User\UserIdentity.php(27): CComponent->__call('setUsertype', Array)
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\User\UserIdentity.php(27): UserIdentity->setUsertype('user')
+#2 F:\Vanser\project\WebBase\Base_site\protected\models\User\LoginForm.php(51): UserIdentity->authenticate()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 F:\Vanser\project\WebBase\Base_site\protected\controllers\VanController.php(29): CModel->validate()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\actions\CInlineAction.php(49): VanController->actionLogin()
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 F:\Vanser\project\WebBase\Van_Framework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(282): CController->run('login')
+#12 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController('Van/login')
+#13 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/Van/login
+HTTP_REFERER=http://www.basesite.com/index.php/Van/login
+---
+2014/07/18 10:50:26 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.Logintime" is not defined.' in F:\Vanser\project\WebBase\Van_Framework\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Vanser\project\WebBase\Van_Framework\framework\web\auth\CWebUser.php(146): CComponent->__get('Logintime')
+#1 F:\Vanser\project\WebBase\Base_site\protected\components\User\WebUser.php(14): CWebUser->__get('Logintime')
+#2 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(32): WebUser->__get('Logintime')
+#3 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VZ_Base->checkLogin()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VZ_Base->init()
+#5 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#6 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 F:\Vanser\project\WebBase\Base_site\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php
+---
+2014/07/18 11:02:39 [error] [php] include(VZ_Userinfo.php): failed to open stream: No such file or directory (F:\Vanser\project\WebBase\Van_Framework\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\YiiBase.php(303): class_exists()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\YiiBase.php(196): import()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(392): createComponent()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(24): CWebApplication->__get()
+#6 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VanController->checkLogin()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VanController->init()
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php (24)
+in F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php (19)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
+2014/07/18 11:02:41 [error] [php] include(VZ_Userinfo.php): failed to open stream: No such file or directory (F:\Vanser\project\WebBase\Van_Framework\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 F:\Vanser\project\WebBase\Van_Framework\framework\YiiBase.php(303): class_exists()
+#2 F:\Vanser\project\WebBase\Van_Framework\framework\YiiBase.php(196): import()
+#3 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(392): createComponent()
+#4 F:\Vanser\project\WebBase\Van_Framework\framework\base\CModule.php(103): CWebApplication->getComponent()
+#5 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(24): CWebApplication->__get()
+#6 F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php(19): VanController->checkLogin()
+#7 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(281): VanController->init()
+#8 F:\Vanser\project\WebBase\Van_Framework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\Vanser\project\WebBase\Van_Framework\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\Vanser\project\WebBase\Base_site\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php (24)
+in F:\Vanser\project\WebBase\Base_site\protected\components\Vanbase\VZ_Base.php (19)
+in F:\Vanser\project\WebBase\Base_site\index.php (13)
