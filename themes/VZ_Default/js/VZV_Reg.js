@@ -59,22 +59,6 @@ function CheckReg() {
         $("#reg_repassword").focus();
         return false;
     }
-
-
-    /*
-
-    var chage = /\D/;
-    if (chage.test($("#age").val())) {
-        alert("年龄只能为数字！");
-        $("#age").focus();
-        return false;
-    } else {
-        if ($("#age").val() > 120) {
-            alert("年龄过大！");
-            $("#age").focus();
-            return false;
-        }
-    }*/
     return true;
 
 }

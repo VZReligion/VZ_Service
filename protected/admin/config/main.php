@@ -51,7 +51,6 @@ return array(
 					), 
 				), 
 			
-			
 			//   MySQL database  
 			
 			'db'=>array(

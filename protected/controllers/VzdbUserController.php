@@ -44,7 +44,6 @@ class VzdbUserController extends Controller
 			),
 		);
 	}
-
 	/**
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
@@ -78,7 +77,6 @@ class VzdbUserController extends Controller
 			'model'=>$model,
 		));
 	}
-
 	/**
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.
@@ -97,7 +95,6 @@ class VzdbUserController extends Controller
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->ID_user));
 		}
-
 		$this->render('update',array(
 			'model'=>$model,
 		));
@@ -142,7 +139,6 @@ class VzdbUserController extends Controller
 			'model'=>$model,
 		));
 	}
-
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.

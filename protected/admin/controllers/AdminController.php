@@ -4,8 +4,9 @@ class AdminController extends VZ_Base
 {
 	public function actionIndex()
 	{
-		//$this->render('index');
-		$this->redirect(array('Login/index'));
+		echo '554';
+		$this->render('index');
+		//$this->redirect(array('Login/index'));
 	}
 
 	// Uncomment the following methods and override them if needed

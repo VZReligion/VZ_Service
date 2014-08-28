@@ -62,7 +62,7 @@ function Register() {
 
     //ajax «Î«Û
     $.ajax({
-        url: host + "/Van/register",
+        url: host + "/VUser/userbase/register",
         type: "POST",
         dataType: "html",
         data: {

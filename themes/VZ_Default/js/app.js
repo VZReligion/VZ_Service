@@ -182,7 +182,7 @@ function login() {
 
     //ajax «Î«Û
     $.ajax({
-        url: host + "/Van/login",
+        url: host + "/VUser/userbase/login",
         type: "POST",
         dataType: "html",
         data: {
